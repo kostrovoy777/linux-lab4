@@ -71,3 +71,4 @@ mdadm --detail --scan --verbose | awk '/ARRAY/ {print}' >> /etc/mdadm/mdadm.conf
 
 ![описание](131.jpg)
 
+после чего выполняем команду mount -a.
